@@ -33,22 +33,78 @@
 
 ## 🛠️ Installation
 
-### Clone the repo:
-```bash
-git clone https://github.com/HuzaifaDal/NetScan-Demo.git
-cd NetScan-Demo
-chmod +x dal_recon_pro.sh
+Clone the repo:
 
+    git clone https://github.com/HuzaifaDal/NetScan-Demo.git
+    cd NetScan-Demo
+    chmod +x dal_recon_pro.sh
 
+Install dependencies:
 
+    # Nmap is required
+    sudo apt install nmap
 
+    # Optional: for HTML report generation
+    sudo apt install aha
 
+---
 
+## ⚙️ Usage Examples
 
+Basic Scan:
 
+    ./dal_recon_pro.sh --target scanme.nmap.org
 
+Full Scan (all ports):
 
+    ./dal_recon_pro.sh --target scanme.nmap.org --full
 
+Generate HTML Report:
 
+    ./dal_recon_pro.sh --target scanme.nmap.org --html
 
+Help Menu:
 
+    ./dal_recon_pro.sh --help
+
+---
+
+## 📁 Output Structure
+
+The results are saved in a structured folder system:
+
+    results/
+    ├── txt/
+    │   └── scanme.nmap.org_20250517_140532_scan.txt
+    └── html/
+        └── scanme.nmap.org_20250517_140532_report.html
+
+Plain text logs contain full scan data. HTML reports (optional) provide a clean browser-based summary.
+
+---
+
+## ⚠️ Disclaimer
+
+> This tool is intended for **educational and authorized security testing only**.  
+> Never scan systems you do not own or have explicit permission to assess.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Nanak Rajppot**  
+Made with ❤️ for learning, exploration, and ethical hacking.
+
+---
+
+## 🙌 Acknowledgments
+
+- Inspired by open-source security tools like Nmap  
+- Thanks to the original AdvancedNetScan project  
+- Shout-out to the infosec community for continual learning
