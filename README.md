@@ -2,7 +2,7 @@
 
 **NetScan-Demo** is an enhanced version of a Bash-based Nmap automation tool designed for fast, flexible, and user-friendly network reconnaissance. It supports advanced scan modes, timestamped result logging, and optional HTML report generation — all from a simple command-line interface.
 
-![NetScan Terminal Preview](https://raw.githubusercontent.com/your-username/netscan-demo/main/screenshots/netscan-preview.png)
+![NetScan Terminal Preview](https://raw.githubusercontent.com/mr-nanak-rajpoot/netscan-demo/main/screenshots/netscan-preview.png)
 
 ---
 
