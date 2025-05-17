@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# DAL Recon Pro - Advanced Network Reconnaissance Script
-# Author: HuzaifaDal
+# Recon Pro - Advanced Network Reconnaissance Script
+# Author: Nanak Rajpoot
 
 # Colors
 GREEN='\033[0;32m'
@@ -13,7 +13,7 @@ NC='\033[0m'
 # Banner
 print_banner() {
     echo -e "${BLUE}=================================================${NC}"
-    echo -e "${GREEN}                DAL RECON PRO                    ${NC}"
+    echo -e "${GREEN}                RECON PRO                    ${NC}"
     echo -e "${GREEN}     Advanced Network Reconnaissance Toolkit     ${NC}"
     echo -e "${BLUE}=================================================${NC}"
 }
